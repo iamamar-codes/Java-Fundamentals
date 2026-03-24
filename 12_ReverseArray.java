@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class ReverseArray{
+    public static void main(String[] args) {
+        int size, i;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter array size: ");
+        size = sc.nextInt();
+        int arr[] =  new int[size]; 
+        for(i=0; i<size; i++){
+            arr[i] = sc.nextInt();
+        }
+        System.out.print("Reverse Array: ");
+        for(i=arr.length-1; i>=0; i--){
+            System.out.print(arr[i]+ " ");
+        }
+    }
+}
