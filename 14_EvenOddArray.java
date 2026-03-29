@@ -30,5 +30,6 @@ class EvenOddArray {
         System.out.println("Even = " + evenCount);
         System.out.println("odd = " + oddCount);
         
+        sc.close();
     }
 }
