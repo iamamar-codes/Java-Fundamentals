@@ -3,7 +3,7 @@ class basics {
 
         System.out.println("kushwaha" + " Amar");
         System.out.println("4+3");
-        System.out.println(4 + 3);
+        System.out.println(4+3);
 
     }
 
